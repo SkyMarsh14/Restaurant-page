@@ -15,6 +15,7 @@ address.textContent = "4400 Sharon Rd, Charlotte, NC 28211, United States"
 
 export function loadContacts(){
     contentDiv.innerHTML= "";
+    contentDiv.id="content"
     contentDiv.append(title);
     contentDiv.append(insta);
     contentDiv.append(phoneNum);

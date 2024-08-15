@@ -1,7 +1,6 @@
 import "./styles.css";
-import steakImage from "./images/medium-rare-steak.jpg";
+import {loadHome} from "./tabs/home";
 
-const image = document.createElement("img");
-image.src = steakImage;
+loadHome();
 
-document.body.append(image);
+const contentDiv = document.querySelector('#content');

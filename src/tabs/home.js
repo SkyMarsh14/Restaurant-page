@@ -20,5 +20,6 @@ titleDiv.textContent = "Where Every Bit Tells a Story"
 
 export function loadHome(){
     contentDiv.innerHTML = "";
+    contentDiv.id = "content"
     contentDiv.append(titleDiv,homeImage,welcomeMsg);
 };

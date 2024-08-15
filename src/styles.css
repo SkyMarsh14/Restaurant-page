@@ -140,3 +140,10 @@ div#content img{
     margin:auto;
     border-radius: 5px;
 }
+.menuTitle{
+  color:var(--text-color-divTitle);
+  font-size:40px;
+}
+.menuDisc{
+  color:var(--text-color-divTitle)
+}

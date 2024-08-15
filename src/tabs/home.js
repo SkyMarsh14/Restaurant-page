@@ -1,6 +1,7 @@
 import image from "../images/restaurant-home-image.jpg";
+import {contentDiv} from "../util.js";
 
-const contentDiv = document.querySelector('#content');
+
 const homeImage = document.createElement('img');
 homeImage.src = image;
 homeImage.classList.add('homeImage')
